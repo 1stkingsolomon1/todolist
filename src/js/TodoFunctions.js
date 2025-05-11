@@ -7,7 +7,7 @@ import TodoList from './TodoList'
 const TodoFunctions = () => {
     const [titleInput, setTitleInput] = useState("");
     const [array, setArray] = useState([]);
-    const todo_url = 'http://localhost:4000/array'
+    const todo_url = 'http://localhost:3500/array'
     const [textInput, setTextInput] = useState('');
     const [error, setError] = useState('');
     const [show, setShow] = useState(false);
